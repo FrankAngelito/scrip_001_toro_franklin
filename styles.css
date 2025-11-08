@@ -1,0 +1,32 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.demo {
+    display: flex;
+    padding: 20px;
+    background-color: aqua;
+    gap: 15px;
+}
+.content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid black;
+    height: 50px;
+    width: 50px;
+    transition: background-color 1s, transform 1s, border 1s;
+    border-radius: 5px;
+
+}
+.Frank {
+   background-color: brown;
+}
+
+.content:hover {
+    background-color: beige;
+    transform: translateY(-5px) translateX(-8px); rotate: (5deg);
+    
+}
