@@ -25,25 +25,7 @@ function createMatrix(dimension, container, divisorFizz, divisorBazz) {
         container.appendChild(div)
     }
 }
-// function applyFizzBuzz(divisor,square,number) {
-//     fizz(divisor,square,number)
-    //bazz(divisor,square,number)
-//}
 
-
-
-// function fizz(divisor, square, number) {
-//     if ( number% divisor == 0){
-//         addClass(square, "fizz")
-//     }
-
-
-// }
-// function buzz(divisor ,square, number) {
-//     if (number % divisor == 0 ){
-//         addClass(square, "buzz")
-//     }
-// }
 function fizzbazz(divisorFizz, divisorBazz, square, number) {
     if (number % divisorFizz === 0 && number % divisorBazz === 0) {
         addClass(square, "fizzbazz") 
@@ -56,23 +38,8 @@ function fizzbazz(divisorFizz, divisorBazz, square, number) {
     }
 }
 
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Ya mismo aprendo con suficiente practica")
     const container = document.querySelector(".container")
-    createMatrix(5,container,2,3) //(2*3))
-
-  
-
-
-  
-
+    createMatrix(5, container, 2, 3)
 })
-
-
-
-
-
