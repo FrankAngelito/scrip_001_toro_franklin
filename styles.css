@@ -46,3 +46,52 @@
   color: black;
   transform: rotate(10deg) scale(1.1);
 }
+
+.controls {
+  background-color: rgb(241, 175, 163);
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+}
+.input-group label {
+font-size: 11px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.input-group input{
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: greenyellow;
+  
+}
+
+#Generate-button {
+  background-color: rgb(136, 231, 231);
+  transition: background-color 0.5s;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.5s, transform 0.3s;
+}
+#Generate-button:hover {
+  background-color: cadetblue;
+  font-weight: bold;
+}
+.Generate-button:active {
+ transition: scale(0.7s);
+
+}
